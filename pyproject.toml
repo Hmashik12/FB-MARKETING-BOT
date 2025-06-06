@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "meta-ghost-bot"
+version = "1.0.0"
+description = "A feature-rich Telegram bot with temp email, name generator, and 2FA code features"
+authors = ["Ghost Cipher"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+python-telegram-bot = "20.6"
+pyotp = "2.9.0"
+requests = "2.31.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
